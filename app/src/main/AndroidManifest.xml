@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.sameer.mccexp12">
+    package="com.sameer.Note_Maker">
 
     <application
         android:allowBackup="true"
@@ -9,17 +9,17 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".shower" android:parentActivityName=".MainActivity"></activity>
+        <activity android:name="com.sameer.Note_Maker.shower" android:parentActivityName="com.sameer.Note_Maker.MainActivity"></activity>
         <activity
-            android:name=".updation"
-            android:parentActivityName=".MainActivity" />
+            android:name="com.sameer.Note_Maker.updation"
+            android:parentActivityName="com.sameer.Note_Maker.MainActivity" />
         <activity
-            android:name=".deletion"
-            android:parentActivityName=".MainActivity" />
+            android:name="com.sameer.Note_Maker.deletion"
+            android:parentActivityName="com.sameer.Note_Maker.MainActivity" />
         <activity
-            android:name=".addition"
-            android:parentActivityName=".MainActivity" />
-        <activity android:name=".MainActivity">
+            android:name="com.sameer.Note_Maker.addition"
+            android:parentActivityName="com.sameer.Note_Maker.MainActivity" />
+        <activity android:name="com.sameer.Note_Maker.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

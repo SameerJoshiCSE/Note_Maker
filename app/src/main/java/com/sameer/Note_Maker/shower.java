@@ -1,16 +1,11 @@
-package com.sameer.mccexp12;
+package com.sameer.Note_Maker;
 
 import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 
-import android.content.Intent;
 import android.database.Cursor;
-import android.database.DataSetObserver;
 import android.database.sqlite.SQLiteDatabase;
 import android.os.Bundle;
-
-
-import java.util.ArrayList;
 
 public class shower extends AppCompatActivity {
 

@@ -1,4 +1,4 @@
-package com.sameer.mccexp12;
+package com.sameer.Note_Maker;
 
 import android.content.Context;
 

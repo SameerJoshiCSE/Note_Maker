@@ -1,4 +1,4 @@
-package com.sameer.mccexp12;
+package com.sameer.Note_Maker;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -32,7 +32,7 @@ public class updation extends AppCompatActivity {
                 if(c.getInt(0)==1){
                     data.execSQL("UPDATE notes SET note='"+valuenote+"' WHERE subject='"+valuesub+"'");
                     Toast.makeText(updation.this,"Note is updated",Toast.LENGTH_LONG).show();
-                    Intent intent=new Intent(updation.this,shower.class);
+                    Intent intent=new Intent(updation.this,MainActivity.class);
                     startActivity(intent);
                 }
                 else{
